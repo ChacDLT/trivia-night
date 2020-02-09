@@ -1,0 +1,19 @@
+{
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2
+  },
+  "prettier.disableLanguages": ["javascript", "javascriptreact"],
+  "eslint.options.resolvePluginsRelativeTo": "/usr/local/lib/node_modules",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
